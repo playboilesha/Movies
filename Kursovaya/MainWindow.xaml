@@ -1,0 +1,183 @@
+﻿<Window x:Class="Kursovaya.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kursovaya"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="365" WindowStyle="SingleBorderWindow" WindowStartupLocation="CenterScreen">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="#FF18CBFF"/>
+            <GradientStop Color="#FF19C866" Offset="1"/>
+            <GradientStop Color="#FF18CAFF" Offset="0.523"/>
+            <GradientStop Color="#FF1AC840" Offset="0.956"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Window.Resources>
+
+        <Style x:Key="TB" TargetType="TextBox">
+            <Setter Property="Background" Value="#FF111640"/>
+            <Setter Property="Height" Value="23"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderBrush" Value="#00004D" />
+            <Setter Property="Padding" Value="10,1,0,0"/>
+            <Setter Property="FontSize" Value="14"/>
+
+
+            <Setter Property="Template">
+
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Grid>
+                            <Border x:Name="Border" BorderThickness="1" CornerRadius="2" Background="{TemplateBinding Background }"
+                                    BorderBrush="#00004D"/>
+                            <ScrollViewer Margin="0" x:Name="PART_ContentHost"  BorderThickness="0" 
+                                          Padding="{TemplateBinding Padding}"
+                                          IsTabStop="False"
+                                          Background="{x:Null}"
+                                          TextElement.Foreground ="White"
+                                           />
+
+
+
+                        </Grid>
+
+                        <ControlTemplate.Triggers>
+
+
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#10105C"/>
+                                <Setter Property="Foreground" Value="White"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+        </Style>
+
+
+
+    </Window.Resources>
+
+    <Grid x:Name="firstGrid">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF054163"/>
+                <GradientStop Color="#FF066FAC" Offset="1"/>
+                <GradientStop Color="#FF045887" Offset="0.501"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="125"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="250"/>
+        </Grid.RowDefinitions>
+
+
+
+        <Grid Name="vverx" Grid.Row="0">
+            <Polygon Fill="White" Opacity="0.3"
+                 Points="107,0,115,7,249,7,257,0" />
+
+        </Grid>
+
+
+
+        <Grid Name="logo" Grid.Row="1">
+            <Image Source="C:\4 сем\ооп\laba6\laba6\Sourse\logo.jpeg"/>
+        </Grid >
+
+        <Grid Name="Text" Grid.Row="2">
+            <Label TextBlock.TextAlignment="Center" VerticalContentAlignment="Center" TextBlock.Foreground="White" FontSize="19" VerticalAlignment='Top' Content="Приложение для любителей фильмов" ></Label>
+        </Grid>
+
+
+        <Grid Name="Aut" Grid.Row="3" Height="250" VerticalAlignment="Top">
+
+
+
+            <TextBox IsReadOnly="True" x:Name="Vvedi" BorderBrush="#FF05649A" Margin="25,128,162,0" FontSize="10" Foreground="Red" VerticalAlignment="Top" Height="20" Background="#FF05649A" />
+
+            <TextBox x:Name="TextBox1" Style="{StaticResource TB}" Margin="25,55,25,0"  VerticalAlignment="Top" />
+            <TextBlock IsHitTestVisible="False" FontSize="14" Text="login" Margin="35,56,25,0" Foreground="#4E4E6A" VerticalAlignment="Top">
+                <TextBlock.Style>
+                    <Style TargetType="{x:Type TextBlock}">
+                        <Setter Property="Visibility" Value="Collapsed"/>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding Text, ElementName=TextBox1}" Value="">
+                                <Setter Property="Visibility" Value="Visible"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBlock.Style>
+            </TextBlock>
+
+            <TextBox x:Name="TextBox2" Style="{StaticResource TB}" Margin="25,100,25,0"   VerticalAlignment="Top"/>
+            <TextBlock IsHitTestVisible="False" FontSize="14" Text="password" Margin="35,101,25,0" Foreground="#4E4E6A" VerticalAlignment="Top">
+                <TextBlock.Style>
+                    <Style TargetType="{x:Type TextBlock}">
+                        <Setter Property="Visibility" Value="Collapsed"/>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding Text, ElementName=TextBox2}" Value="">
+                                <Setter Property="Visibility" Value="Visible"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBlock.Style>
+            </TextBlock>
+        </Grid>
+        <Button  x:Name="Button1" Background="#AD9A00" Click="Button_click" Content="Авторизоваться"  FontSize="18" Grid.Row="3" Height="35" Margin="25,105,25,0" Foreground="#111113">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="buttonBorder" 
+                BorderBrush="{TemplateBinding BorderBrush}"
+                BorderThickness="{TemplateBinding BorderThickness}"
+                Background="{TemplateBinding Background}"
+                Height="{TemplateBinding Height}"
+                Width="{TemplateBinding Width}" >
+                        <ContentControl Margin="{TemplateBinding Padding}"
+                    HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                    VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                    Content="{TemplateBinding Content}" />
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="true">
+
+                            <Setter TargetName="buttonBorder" Property="Background" Value="#CCA817" />
+                        </Trigger>
+
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button  x:Name="regist" Background="#FF066AA4" Click="Regist" Content="Если вы не зарегистированы"  HorizontalAlignment="Center"  FontSize="10" Grid.Row="3" Margin="112,198,99,33" Foreground="White" BorderBrush="#FF066BA6">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="buttonBorder" 
+                BorderBrush="{TemplateBinding BorderBrush}"
+                BorderThickness="{TemplateBinding BorderThickness}"
+                Background="{TemplateBinding Background}"
+                 >
+                        <ContentControl Margin="{TemplateBinding Padding}"
+                    HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                    VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                    Content="{TemplateBinding Content}" />
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="true">
+
+                            <Setter TargetName="buttonBorder" Property="Background" Value="#FF3C3C3E" />
+                        </Trigger>
+
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+    </Grid>
+</Window>

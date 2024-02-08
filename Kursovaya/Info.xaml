@@ -1,0 +1,33 @@
+﻿<Window x:Class="Kursovaya.Info"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kursovaya"
+        mc:Ignorable="d"
+        Title="Info" Height="250" Width="524"  WindowStartupLocation="CenterScreen" Background="LightBlue">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="100"/>
+            
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Image MouseDown="Image_MouseDown"  Source="C:\4 сем\ооп\Kursovaya\Kursovaya\sourse\back.png" Margin="0,0,467,0"></Image>
+            <Label FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Black">Информация о приложении</Label>
+            
+        </Grid>
+        <Grid Grid.Row="1" Margin="0,0,0,10">
+            <TextBlock TextWrapping="Wrap"  FontSize="15" Foreground="#993366" Height="80">Приложение созданное для поиска фильмов кооторые вам понравились, в этом приложение есть несколько недочетов т. к. это бето версия.
+                Если у вас есть какие нибудь вопросы то можете обратиться в соц. сети:
+            
+            </TextBlock>
+        </Grid>
+        <Grid Grid.Row="2" Margin="0,0,0,22">
+            <Image MouseDown="Inst"  Source="C:\4 сем\ооп\Kursovaya\Kursovaya\sourse\inst.png" Margin="160,20,314,20"></Image>
+            <Image MouseDown="Vk"  Source="C:\4 сем\ооп\Kursovaya\Kursovaya\sourse\vk.png" Margin="238,20,238,20"></Image>
+            <Image MouseDown="Twit"  Source="C:\4 сем\ооп\Kursovaya\Kursovaya\sourse\twit.png" Margin="316,20,160,20" RenderTransformOrigin="0.574,0.501"></Image>
+        </Grid>
+    </Grid>
+</Window>

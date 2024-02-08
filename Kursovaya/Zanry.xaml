@@ -1,0 +1,154 @@
+﻿<Window x:Class="Kursovaya.Zanry"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kursovaya"
+        mc:Ignorable="d"
+        Title="Zanry" Height="640" Width="900"  WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+
+
+
+        <ResourceDictionary>
+
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Tema2.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+
+    </Window.Resources>
+
+
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="*"/>
+
+
+
+
+
+
+
+
+
+
+        </Grid.RowDefinitions>
+
+
+
+
+        <Grid Grid.Row="0" Background="#252850">
+        </Grid>
+
+
+
+        <Grid Grid.Row="0"  Background="#252850" >
+            <Label x:Name="login"   BorderBrush="#252850" Background="#252850" Foreground="White" FontSize="20" Margin="52,22,710,22"/>
+
+            <Button  x:Name="tema1"  Click="temaBlack"  Content="Темная" Style="{DynamicResource ButtonStyle}" FontSize="12"  Margin="703,25,122,25"/>
+            <Button  x:Name="tema2" Click="temaWhite"  Content="Светлая" Style="{DynamicResource ButtonStyle}" FontSize="12" Height="30" Margin="630,25,202,25"/>
+
+
+
+
+
+            <Image MouseDown="Log_out"  Source="C:\4 сем\ооп\Kursovaya\Kursovaya\sourse\log out.png" Margin="818,0,25,0"  />
+
+
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="0" Style="{DynamicResource  GridStyle}">
+            <Button  x:Name="main" Click="MainStr"  Content="Главная" Style="{DynamicResource ButtonStyle}" FontSize="18"    Margin="50,20,685,20" />
+
+            <Button   Click="Zhanr" Background="#41008A" Content="Жанры фильмов" Style="{DynamicResource ButtonStyle}"  FontSize="18"   Margin="215,20,525,20"/>
+            <Button Click="Izbrannoe"   Content="Избранное" Style="{DynamicResource ButtonStyle}" FontSize="18"  Margin="375,20,370,20" >
+
+            </Button>
+            <Button  Click="Search"  Content="Поиск" Style="{DynamicResource ButtonStyle}" FontSize="18" Margin="530,20,210,20"  />
+            <Button   Click="Exite"  Content="Exit" Style="{DynamicResource ButtonStyle}" FontSize="18"  Margin="690,20,50,20"  />
+
+
+        </Grid>
+
+        <Grid Grid.Row="2"  Style="{DynamicResource  GridStyle}">
+            <Label FontSize="14" VerticalAlignment="Center" HorizontalAlignment="Center"   Content="Жанры" Foreground="Blue" Width="66" Height="30"/>
+        </Grid>
+
+        <Grid Grid.Row="3"  Style="{DynamicResource  GridStyle}">
+
+            <Image Source="C:\4 сем\ооп\Kursovaya\Kursovaya\sourse\комедия.jpg" Margin="170,0,619,0" />
+            <TextBlock MouseDown="Komedii" Style="{DynamicResource TextBlock}" FontSize="30" Margin="350,10,332,10">
+                <Run>Комедии</Run>
+
+            </TextBlock>
+
+            <!--<Button Height="80" Width="300" FontSize="24" Background="White" Foreground="Black" Content="Комедии" BorderBrush="White"></Button>-->
+        </Grid>
+
+        <Grid Grid.Row="4" Style="{DynamicResource  GridStyle}">
+        </Grid>
+
+        <Grid Grid.Row="5"  Style="{DynamicResource  GridStyle}">
+            <Image Source="C:\4 сем\ооп\Kursovaya\Kursovaya\sourse\ужасы.jpg" Margin="150,0,600,0"/>
+            <TextBlock MouseDown="Horror" Style="{DynamicResource TextBlock}" Height="50" FontSize="30" Margin="350,10,332,10">
+                <Run>Ужасы</Run>
+
+            </TextBlock>
+        </Grid>
+
+        <Grid Grid.Row="6" Style="{DynamicResource  GridStyle}">
+        </Grid>
+
+        <Grid Grid.Row="7"  Style="{DynamicResource  GridStyle}">
+            <Image Source="C:\4 сем\ооп\Kursovaya\Kursovaya\sourse\фантастика.jpg" Margin="150,0,600,0"/>
+            <TextBlock MouseDown="Fentasy" Style="{DynamicResource TextBlock}" Height="50" FontSize="30" Margin="350,10,332,10">
+                <Run>Фантастика</Run>
+            </TextBlock>
+        </Grid>
+
+        <Grid Grid.Row="8" Style="{DynamicResource  GridStyle}">
+        </Grid>
+
+        <Grid Grid.Row="9" Style="{DynamicResource  GridStyle}">
+            <Image Source="C:\4 сем\ооп\Kursovaya\Kursovaya\sourse\драма.jpg" Margin="150,0,600,0"/>
+            <TextBlock MouseDown="Dram" Style="{DynamicResource TextBlock}" Height="50" FontSize="30"  Margin="350,10,332,10">
+                <Run>Драма</Run>
+            </TextBlock>
+        </Grid>
+
+        <Grid Grid.Row="10" Style="{DynamicResource  GridStyle}">
+        </Grid>
+
+        <Grid Grid.Row="11" Style="{DynamicResource  GridStyle}">
+            <Image Source="C:\4 сем\ооп\Kursovaya\Kursovaya\sourse\боевик.jpg" Margin="150,0,600,0"/>
+            <TextBlock MouseDown="Boy" Style="{DynamicResource TextBlock}" Height="50" FontSize="30"  Margin="350,10,332,10">
+                <Run>Боевик</Run>
+            </TextBlock>
+        </Grid>
+
+        <Grid Grid.Row="12" Style="{DynamicResource  GridStyle}">
+        </Grid>
+
+
+
+
+    </Grid>
+
+
+
+</Window>

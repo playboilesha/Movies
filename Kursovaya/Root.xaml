@@ -1,0 +1,62 @@
+﻿<Window Loaded="Window_Loaded" x:Class="Kursovaya.Root"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kursovaya"
+        mc:Ignorable="d"
+        Title="Root" Height="512" Width="879" WindowStartupLocation="CenterScreen" Background="LightBlue" WindowState="Normal" WindowStyle="None" ResizeMode="NoResize">
+
+
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+
+
+                <Image MouseDown="Svert" HorizontalAlignment="Center" Width="20" Height="19" Margin="7,0,20,4"
+                       Source="C:\4 сем\ооп\Kursovaya\Kursovaya\sourse\cherta.png">
+                    <Image.Style>
+                        <Style TargetType="{x:Type Image}">
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Width" Value="15"></Setter>
+                                    <Setter Property="Height" Value="15"></Setter>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image MouseDown="Close" Width="20" Height="20" Margin="5,0,5,0"
+                       Source="C:\4 сем\ооп\Kursovaya\Kursovaya\sourse\closed.png" >
+                    <Image.Style>
+                        <Style TargetType="{x:Type Image}">
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseDirectlyOver" Value="True">
+                                    <Setter Property="Width" Value="15"></Setter>
+                                    <Setter Property="Height" Value="15"></Setter>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Label FontSize="15" Width="30" Height="12">x</Label>
+            <Image MouseDown="Back_Click" Source="C:\4 сем\ооп\Kursovaya\Kursovaya\sourse\back.png" Margin="625,0,168,440"/>
+            <Button  Content="Добавить"  Click="Add_Click" Background="#84C3BE" Foreground="Black" Margin="644,120,25,315"></Button>
+            <Button  Content="Удалить"  Click="Delete_Click" Background="#84C3BE" Foreground="Black" Margin="644,220,25,215"></Button>
+            <Button  Content="Обновить"  Click="Reset_Click" Background="#84C3BE" Foreground="Black" Margin="644,320,25,115"></Button>
+            <DataGrid Background="LightBlue" Width="615"  HorizontalAlignment="Left" FontFamily="Times New Roman" FontSize="14"   Name="FilmsGrid" Height="488" VerticalAlignment="Center"/>
+        </Grid>
+
+    </Grid>
+
+
+</Window>

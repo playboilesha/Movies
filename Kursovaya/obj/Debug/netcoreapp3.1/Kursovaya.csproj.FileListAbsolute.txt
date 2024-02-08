@@ -1,0 +1,126 @@
+C:\4 сем\ооп\Kursovaya\Kursovaya\bin\Debug\netcoreapp3.1\Kursovaya.exe
+C:\4 сем\ооп\Kursovaya\Kursovaya\bin\Debug\netcoreapp3.1\Kursovaya.deps.json
+C:\4 сем\ооп\Kursovaya\Kursovaya\bin\Debug\netcoreapp3.1\Kursovaya.runtimeconfig.json
+C:\4 сем\ооп\Kursovaya\Kursovaya\bin\Debug\netcoreapp3.1\Kursovaya.runtimeconfig.dev.json
+C:\4 сем\ооп\Kursovaya\Kursovaya\bin\Debug\netcoreapp3.1\Kursovaya.dll
+C:\4 сем\ооп\Kursovaya\Kursovaya\bin\Debug\netcoreapp3.1\Kursovaya.pdb
+C:\4 сем\ооп\Kursovaya\Kursovaya\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\4 сем\ооп\Kursovaya\Kursovaya\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\4 сем\ооп\Kursovaya\Kursovaya\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\4 сем\ооп\Kursovaya\Kursovaya\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\4 сем\ооп\Kursovaya\Kursovaya\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\4 сем\ооп\Kursovaya\Kursovaya\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Kursovaya.csproj.AssemblyReference.cache
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Tema.baml
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Tema2.baml
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Fasntasy.g.cs
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Horror.g.cs
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Izbrannoe.g.cs
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Komedi.g.cs
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Main.g.cs
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Registr.g.cs
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Root.g.cs
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Search.g.cs
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\SearchYear.g.cs
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Zanry.g.cs
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\App.g.cs
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Kursovaya_MarkupCompile.cache
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Kursovaya_MarkupCompile.lref
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Fasntasy.baml
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Horror.baml
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Izbrannoe.baml
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Komedi.baml
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Main.baml
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Registr.baml
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Root.baml
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Search.baml
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\SearchYear.baml
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Zanry.baml
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Kursovaya.g.resources
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Kursovaya.GeneratedMSBuildEditorConfig.editorconfig
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Kursovaya.AssemblyInfoInputs.cache
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Kursovaya.AssemblyInfo.cs
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Kursovaya.csproj.CoreCompileInputs.cache
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Kursovaya.dll
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Kursovaya.pdb
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Kursovaya.genruntimeconfig.cache
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\AddRoot.g.cs
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\AddRoot.baml
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\DeleteRoot.g.cs
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\DeleteRoot.baml
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Boevik.g.cs
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Drama.g.cs
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Boevik.baml
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Drama.baml
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Info.g.cs
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Info.baml
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Opis.g.cs
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Opisanie.g.cs
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Opis.baml
+C:\4 сем\ооп\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Opisanie.baml
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Kursovaya.csproj.AssemblyReference.cache
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Boevik.baml
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Tema.baml
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Tema2.baml
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\AddRoot.g.cs
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Boevik.g.cs
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\DeleteRoot.g.cs
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Drama.g.cs
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Fasntasy.g.cs
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Horror.g.cs
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Info.g.cs
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Izbrannoe.g.cs
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Komedi.g.cs
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Main.g.cs
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Opis.g.cs
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Opisanie.g.cs
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Registr.g.cs
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Root.g.cs
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Search.g.cs
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\SearchYear.g.cs
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Zanry.g.cs
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\App.g.cs
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Kursovaya_MarkupCompile.cache
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Kursovaya_MarkupCompile.lref
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Kursovaya.dll
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Kursovaya.pdb
+E:\Kursovaya\Kursovaya\bin\Debug\netcoreapp3.1\Kursovaya.exe
+E:\Kursovaya\Kursovaya\bin\Debug\netcoreapp3.1\Kursovaya.deps.json
+E:\Kursovaya\Kursovaya\bin\Debug\netcoreapp3.1\Kursovaya.runtimeconfig.json
+E:\Kursovaya\Kursovaya\bin\Debug\netcoreapp3.1\Kursovaya.runtimeconfig.dev.json
+E:\Kursovaya\Kursovaya\bin\Debug\netcoreapp3.1\Kursovaya.dll
+E:\Kursovaya\Kursovaya\bin\Debug\netcoreapp3.1\Kursovaya.pdb
+E:\Kursovaya\Kursovaya\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+E:\Kursovaya\Kursovaya\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\Kursovaya\Kursovaya\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\Kursovaya\Kursovaya\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\Kursovaya\Kursovaya\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Kursovaya\Kursovaya\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\AddRoot.baml
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\DeleteRoot.baml
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Drama.baml
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Fasntasy.baml
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Horror.baml
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Info.baml
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Izbrannoe.baml
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Komedi.baml
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Main.baml
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\MainWindow.baml
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Opis.baml
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Opisanie.baml
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Registr.baml
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Root.baml
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Search.baml
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\SearchYear.baml
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Zanry.baml
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Kursovaya.g.resources
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Kursovaya.GeneratedMSBuildEditorConfig.editorconfig
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Kursovaya.AssemblyInfoInputs.cache
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Kursovaya.AssemblyInfo.cs
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Kursovaya.csproj.CoreCompileInputs.cache
+E:\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Kursovaya.genruntimeconfig.cache
+D:\флешка\2 курс\4 сем\курсач\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Kursovaya.dll
+D:\флешка\2 курс\4 сем\курсач\Kursovaya\Kursovaya\obj\Debug\netcoreapp3.1\Kursovaya.pdb

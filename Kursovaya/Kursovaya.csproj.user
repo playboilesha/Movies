@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AddRoot.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Boevik.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="DeleteRoot.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Opis.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Opisanie.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Drama.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Fasntasy.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Horror.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Info.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Izbrannoe.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Komedi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Main.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Registr.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Root.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Search.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SearchYear.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Zanry.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AddRoot.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Boevik.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="DeleteRoot.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Opis.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Opisanie.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Drama.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Fasntasy.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Horror.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Info.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Izbrannoe.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Komedi.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Main.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Registr.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Root.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Search.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SearchYear.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Tema.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Tema2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Zanry.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
